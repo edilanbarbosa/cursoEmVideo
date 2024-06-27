@@ -1,0 +1,152 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "idroid";
+  src: url("../fontes/idroid.otf") format("opentype");
+  font-size: normal;
+  font-weight: normal;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #e7e5c1;
+}
+
+header {
+  background-image: linear-gradient(to top, #043d1c, #299f5b);
+}
+
+header > h1 {
+  text-transform: uppercase;
+}
+
+header > h1,
+header > p {
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 1px black;
+  margin: 0;
+  padding: 20px 0;
+}
+
+header > nav > a {
+  display: inline-block;
+  color: #8cd1aa;
+  text-decoration: none;
+  border-radius: 3px;
+  margin: 2px 10px;
+  padding: 10px;
+}
+
+header > nav > a:hover {
+  color: #043d1c;
+  background-color: #2c8f56;
+}
+
+main > section {
+  max-width: 1000px;
+  background-color: white;
+  margin: 0 auto;
+  padding: 5px 20px;
+}
+
+main > section > article > h1,
+main > section > article > h2 {
+  font-family: idroid;
+  color: #043d1c;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+main > section > article > h2 {
+  background-image: linear-gradient(to right, #93e3b2, white);
+  color: #085829;
+  padding: 2px 10px;
+}
+
+main > section p {
+  text-indent: 50px;
+  text-align: justify;
+  line-height: 2em;
+}
+
+main > section > article p > a {
+  color: #085829;
+  background-color: #93e3b2;
+  text-decoration: none;
+  padding: 2px 5px;
+}
+
+main > section > article p > a:hover {
+  text-decoration: underline;
+}
+
+main > section > article p > a::after {
+  content: " 🔗";
+}
+
+main > section > article > p > strong {
+  color: #085829;
+}
+
+main > section > article > picture > img,
+main > section > article > .imageCenter {
+  margin: auto;
+  display: block;
+}
+
+main > section#section-iframe {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 30px 40px;
+  background-color: #043d1c;
+  text-align: center;
+}
+
+main > section > article#article-extra div {
+  background-color: #93e3b2;
+  border-radius: 0 0 10px 10px;
+  padding: 0 10px;
+}
+
+main > section > article#article-extra h3 {
+  color: white;
+  background-color: #043d1c;
+  border-radius: 10px 10px 0 0;
+  padding: 10px;
+  margin-bottom: 0;
+}
+
+main > section > article#article-extra > div > p {
+  margin-top: 0;
+}
+
+main > section > article#article-extra div > ul {
+  display: inline-block;
+  width: 47%;
+  padding: 0;
+}
+
+main > section > article#article-extra div > ul > li {
+  list-style: none;
+}
+
+main > section > article#article-extra div > ul > li::before {
+  content: "✔️";
+}
+
+footer p {
+  margin: 20px 0 0 0;
+  text-align: center;
+  padding: 10px;
+  background-color: #043d1c;
+  color: #8cd1aa;
+}
+
+footer > p > strong {
+  color: white;
+}
+
+#last-section {
+  border-radius: 0 0 10px 10px;
+}
