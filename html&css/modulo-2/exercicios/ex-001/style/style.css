@@ -179,7 +179,7 @@ main > article > aside > p {
   margin: 15px 0;
 }
 
-ul {
+main > article > aside > ul {
   list-style-position: inside;
   columns: 2;
   list-style-type: '\2714\00A0';
